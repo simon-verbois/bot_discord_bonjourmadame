@@ -5,6 +5,7 @@ Ce bot Discord récupère automatiquement l'image et le titre du dernier post su
 ### Prérequis
 - Docker
 - Docker Compose
+- Token discord [Discord developers portal](https://discord.com/developers/applications)
 
 ### Instructions
 ```bash
