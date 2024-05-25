@@ -1,0 +1,10 @@
+version: '3.7'
+
+services:
+  bonjour-madame:
+    container_name: bonjour-madame
+    build: .
+    env_file: .env
+    volumes:
+      - .:/app
+    entrypoint: ["sh", "-c", "python script.py"]
