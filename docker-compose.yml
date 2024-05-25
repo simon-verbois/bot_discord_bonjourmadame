@@ -7,4 +7,4 @@ services:
     env_file: .env
     volumes:
       - .:/app
-    entrypoint: ["sh", "-c", "python script.py"]
+    entrypoint: ["sh", "-c", "python script.py && rm -f image.jpg"]
